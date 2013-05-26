@@ -1,0 +1,28 @@
+{
+    "name": "schmunk42/yii2-extension-skeleton",
+    "description": "Yii2 Extension Skeleton",
+    "keywords": ["yii2", "extension", "skeleton"],
+    "homepage": "https://github.com/schmunk42/yii2-extension-skeleton.git",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Tobias Munk",
+            "email": "schmunk@usrbin.de",
+            "homepage": "http://www.usrbin.de"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "schmunk42\\skeleton\\": "./src"
+        }
+    },
+    "require": {
+        "yiisoft/yii2-composer": "dev-master"
+    },
+    "extra": {
+		"yii-install-commands": [
+			"schmunk42\\skeleton\\commands\\hello \"I am an extension!\""
+		]
+	}
+}
